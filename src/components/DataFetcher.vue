@@ -23,7 +23,7 @@
     methods: {
       async fetchData() {
         try {
-          const response = await axios.get('http://service-car:80');
+          const response = await axios.get('http://service-cart:80');
           this.data = response.data;
         } catch (error) {
           this.error = error;
